@@ -18,7 +18,7 @@
                 authenticateUser();
             }
         }    
-    } else {
+    } else {    
         if (isset($_GET['task']) && $_GET['task'] == "create-task") {
             createNewTask();
         }

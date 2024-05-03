@@ -30,5 +30,85 @@
         "email": "jg@mail.com",
         "password": "1234",
         "tasks": []
+    },
+    {
+        "userId": 4,
+        "firstName": "Miguel",
+        "surName": "L\u00f3pez",
+        "email": "mlop@mail.com",
+        "password": "1234",
+        "tasks": [
+            {
+                "taskId": 1,
+                "title": "Hacer la cena",
+                "description": "Tengo que hacer la cena para esta noche",
+                "completed": false,
+                "deadLine": "1997-08-09"
+            }
+        ]
+    },
+    {
+        "userId": 5,
+        "firstName": "Miguel",
+        "surName": "L\u00f3pez",
+        "email": "m@mail.com",
+        "password": "asd",
+        "tasks": [
+            {
+                "taskId": 1,
+                "title": "Task title",
+                "description": "Description of the first task",
+                "completed": false,
+                "deadLine": "2024-05-03"
+            }
+        ]
+    },
+    {
+        "userId": 6,
+        "firstName": "Miguel",
+        "surName": "L\u00f3pez",
+        "email": "ml@mail.com",
+        "password": "1234",
+        "tasks": [
+            {
+                "taskId": 1,
+                "title": "Task Title 1",
+                "description": "Tas description for task title 1. An example text.",
+                "completed": false,
+                "deadLine": "2024-05-05"
+            }
+        ]
+    },
+    {
+        "userId": 7,
+        "firstName": "User",
+        "surName": "Two",
+        "email": "m2@mail.com",
+        "password": "1234",
+        "tasks": []
+    },
+    {
+        "userId": 8,
+        "firstName": "User",
+        "surName": "One",
+        "email": "u1@mail.com",
+        "password": "1234",
+        "tasks": [
+            {
+                "taskId": 1,
+                "title": "Task Title",
+                "description": "Description text for task 1",
+                "completed": false,
+                "deadLine": "2024-05-04"
+            }
+        ]
+    },
+    {
+        "userId": 9,
+        "firstName": "User",
+        "surName": "Two",
+        "email": "u2@mail.com",
+        "password": "1234",
+        "tasks": []
     }
 ]
